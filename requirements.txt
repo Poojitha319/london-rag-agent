@@ -1,0 +1,8 @@
+python-dotenv
+boto3
+pandas
+requests
+sentence-transformers
+faiss-cpu
+uvicorn
+fastapi
