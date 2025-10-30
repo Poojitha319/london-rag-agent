@@ -1,0 +1,61 @@
+property_id,address,borough,postcode,property_type,bedrooms,price,listing_date,agent_name
+P001,126 Road,TOWER HAMLETS,W2 2D,Studio,4,250k,2025-10-04,Prime Estates
+P002,147 High Street,HACKNEY,SW7 4A,maisonette,3,£750000,2025-08-02,City Lettings
+P003,179 Lane,Westminster,SE7 7C,studio,4,£475000,2025-07-16,Metro Realty
+P004,39 Gardens,Kensington And Chelsea,SW8 3C,house,3,£475000,2025-08-10,Metro Realty
+P005,180 Road,ISLINGTON,NW4 8A,flat,3,"£250,000",2025-09-08,City Lettings
+P006,13 High Street,westminster,NW1 3C,house,0,325k,2025-08-21,Prime Estates
+P007,179 High Street,Kensington And Chelsea,NW7 3B,House,0,325k,2025-08-22,London Homes
+P008,140 Gardens,Hackney,N8 4A,Studio,2,£325000,2025-10-22,Metro Realty
+P009,20 Road,hackney,W3 1C,Flat,1,£550000,2025-09-03,Metro Realty
+P010,110 High Street,WESTMINSTER,SE5 2A,maisonette,1,325000,2025-10-06,Metro Realty
+P011,86 Gardens,WESTMINSTER,SE5 5C,House,1,"£250,000",2025-08-07,Metro Realty
+P012,79 High Street,Kensington And Chelsea,SE3 3C,flat,1,£895000,2025-10-16,London Homes
+P013,161 High Street,camden,SE3 4A,House,1,£325000,2025-07-13,City Lettings
+P014,24 Gardens,Westminster,SE3 2B,studio,2,250000,2025-09-04,Metro Realty
+P015,130 High Street,Kensington And Chelsea,NW3 6D,House,1,£325000,2025-09-04,Metro Realty
+P016,180 Road,Westminster,W6 5B,Studio,2,"£895,000",2025-09-06,Metro Realty
+P017,58 High Street,CAMDEN,SW2 9B,studio,4,£475000,2025-10-19,London Homes
+P018,164 Lane,tower hamlets,N3 1D,maisonette,2,750k,2025-08-16,Metro Realty
+P019,181 Lane,Kensington And Chelsea,N6 3D,Flat,2,"£250,000",2025-10-09,Prime Estates
+P020,108 High Street,kensington and chelsea,N1 5B,flat,2,250k,2025-09-07,Metro Realty
+P021,167 High Street,Westminster,W3 5C,house,1,325000,2025-08-12,Prime Estates
+P022,50 Lane,KENSINGTON AND CHELSEA,SW6 2B,Studio,1,"£895,000",2025-10-14,Prime Estates
+P023,33 Gardens,tower hamlets,N9 4B,Studio,3,325000,2025-10-18,London Homes
+P024,144 High Street,kensington and chelsea,W5 3B,Flat,1,"£250,000",2025-07-12,Metro Realty
+P025,47 High Street,kensington and chelsea,E4 4A,Studio,3,£895000,2025-10-28,Metro Realty
+P026,52 Gardens,westminster,E7 5D,Studio,1,325000,2025-10-19,City Lettings
+P027,194 Gardens,Tower Hamlets,NW3 7B,maisonette,1,"£550,000",2025-09-10,Metro Realty
+P028,40 Gardens,Tower Hamlets,N8 2D,studio,3,£325000,2025-09-16,Metro Realty
+P029,130 Lane,Hackney,SE2 6B,maisonette,4,550000,2025-09-21,Prime Estates
+P030,23 Lane,islington,SE1 9C,flat,4,475000,2025-09-12,Prime Estates
+P031,191 High Street,camden,N3 8D,house,2,475000,2025-09-02,London Homes
+P032,187 Road,westminster,SE4 2C,Flat,2,550000,2025-08-12,City Lettings
+P033,92 Gardens,TOWER HAMLETS,SE2 5D,House,2,"£325,000",2025-07-03,Prime Estates
+P034,135 High Street,Islington,SE8 7D,flat,2,325k,2025-10-12,London Homes
+P035,153 Road,hackney,W6 1A,maisonette,1,"£475,000",2025-09-06,Prime Estates
+P036,40 Gardens,kensington and chelsea,SW9 8C,house,1,250k,2025-08-30,City Lettings
+P037,142 Road,KENSINGTON AND CHELSEA,E3 8B,Maisonette,3,£550000,2025-10-18,London Homes
+P038,32 High Street,TOWER HAMLETS,NW9 4D,studio,2,325000,2025-09-04,City Lettings
+P039,57 High Street,KENSINGTON AND CHELSEA,SE9 2B,House,3,550000,2025-08-04,City Lettings
+P040,151 High Street,KENSINGTON AND CHELSEA,E9 1B,House,4,325000,2025-08-12,City Lettings
+P041,12 Lane,Camden,W6 5C,house,3,895k,2025-09-16,Metro Realty
+P042,59 Lane,hackney,E5 3C,House,3,"£475,000",2025-08-11,Metro Realty
+P043,99 Lane,Islington,SE4 4D,studio,0,475k,2025-09-01,Metro Realty
+P044,9 High Street,TOWER HAMLETS,W4 5A,flat,3,"£550,000",2025-07-30,London Homes
+P045,108 Lane,kensington and chelsea,N3 2B,studio,0,325000,2025-08-19,Prime Estates
+P046,193 Road,Islington,SW2 8C,Maisonette,4,£250000,2025-08-16,City Lettings
+P047,25 Gardens,westminster,SE2 3C,house,1,"£550,000",2025-10-09,Metro Realty
+P048,35 Gardens,Camden,SW2 7D,flat,4,£550000,2025-09-03,London Homes
+P049,190 Gardens,WESTMINSTER,SE9 6B,Studio,2,550000,2025-09-11,Prime Estates
+P050,9 High Street,Hackney,E9 3C,flat,4,750000,2025-08-27,City Lettings
+P051,27 Lane,WESTMINSTER,W1 1B,Studio,4,"£550,000",2025-08-30,Metro Realty
+P052,31 Road,westminster,SE2 2D,maisonette,4,£550000,2025-09-20,Metro Realty
+P053,162 High Street,HACKNEY,NW2 4B,maisonette,1,"£325,000",2025-07-31,Prime Estates
+P054,38 Road,Tower Hamlets,N6 1C,maisonette,4,"£550,000",2025-07-10,Metro Realty
+P055,133 Gardens,KENSINGTON AND CHELSEA,W8 8A,Maisonette,2,325k,2025-10-08,Metro Realty
+P056,37 Gardens,hackney,N7 1A,House,3,250k,2025-08-26,Prime Estates
+P057,107 High Street,Islington,SE9 8A,Flat,0,"£895,000",2025-07-22,London Homes
+P058,14 Road,HACKNEY,NW3 2B,House,0,475k,2025-10-25,City Lettings
+P059,5 High Street,Camden,W4 5A,Flat,2,£895000,2025-07-20,Metro Realty
+P060,191 Gardens,Kensington And Chelsea,W8 2C,House,1,475000,2025-08-15,Prime Estates
