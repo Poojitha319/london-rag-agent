@@ -151,7 +151,40 @@ def build_index():
         return {"message": "RAG index built successfully", "details": info}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Index build failed: {e}")
+# -------------------------------------------------
+# Visualization Endpoint
+# -------------------------------------------------
+@app.get("/visualize/boroughs")
+def visualize_properties_by_borough():
+    """
+    Generate a bar chart showing the number of properties by borough.
+    Returns: Base64 encoded PNG for embedding or previewing.
+    """
+    try:
+        df = load_processed_df()
+        counts = df["borough"].value_counts()
 
+        # Plot chart
+        fig, ax = plt.subplots(figsize=(8, 5))
+        counts.plot(kind="bar", color="skyblue", ax=ax)
+        ax.set_title("Number of Properties by Borough", fontsize=14)
+        ax.set_xlabel("Borough")
+        ax.set_ylabel("Count")
+        plt.tight_layout()
+
+        # Convert to Base64
+        buf = io.BytesIO()
+        plt.savefig(buf, format="png")
+        buf.seek(0)
+        img_base64 = base64.b64encode(buf.read()).decode("utf-8")
+        plt.close(fig)
+
+        return JSONResponse({
+            "status": "success",
+            "visualization": "data:image/png;base64," + img_base64
+        })
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Visualization failed: {e}")
 # -------------------------------------------------
 # RAG Query Endpoint
 # -------------------------------------------------
@@ -193,3 +226,4 @@ def agent_run(req: AgentRequest):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("src.api.main:app", host="0.0.0.0", port=8000, reload=True)
+
